@@ -272,7 +272,19 @@ img, svg{
     text-decoration: 4px solid underline var(--green);
 }
 
-/* TO DO: Add selectors and styles below for the paragraph and link in the padding box demo section */
+#padding p:last-of-type{
+    padding: 16px 0;
+}
+
+#padding a{
+    background-color: var(--green);
+    padding: 16px;
+    display: block;
+
+}
+
+
+/* LEFT OFF AT 15:29 */
 
     /* the style below is included for you to add the link in the padding demo section */
     /* transition: background-color 500ms; */
